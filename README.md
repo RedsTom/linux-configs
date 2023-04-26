@@ -9,6 +9,7 @@ Get all the configurations I use on my linux machine.
 - `polybar` for the top bar
 - `nitrogen` to manage my wallpaper
 - `alacritty` as my terminal emulator
+- `gnome-authentication-agent` for asking root permissions
 
 ## How to use:
 Simply copy the configuration folders in your `~/.config/` folder.
