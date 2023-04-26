@@ -78,7 +78,7 @@ bindsym $mod+d focus mode_toggle
 # Focus super group
 bindsym $mod+Shift+q focus parent
 
-# Start the application menu (rofi here)
+# Start the application menu (rofi here) ; you may change the theme by changing the launcher used
 bindsym $mod+space exec ~/.config/rofi/scripts/t2_launcher
 
 # Workspaces names ("1:all" makes workspace 1's name be "all")
