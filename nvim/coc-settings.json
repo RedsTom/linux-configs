@@ -1,3 +1,0 @@
-{
-  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/home/redstom/.config/coc/extensions/coc-lombok-data/server/lombok.jar\""
-}
