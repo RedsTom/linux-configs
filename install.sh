@@ -5,7 +5,7 @@ cp -r ./ ~/.config/
 apt install -y policykit-1-gnome i3-wm flameshot rofi polybar nitrogen
 
 # Install alacritty
-apt install cargo -y
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install alacritty 
 
 # Install neovim
