@@ -7,6 +7,26 @@
  **/
 
 configuration {
+	/*---------- File browser settings ----------*/
+    filebrowser {
+/*	  directory: "/home";*/
+      directories-first: true;
+      sorting-method:    "name";
+    }
+
+	/*---------- Other settings ----------*/
+    timeout {
+      action: "kb-cancel";
+      delay:  0;
+    }
+
+	drun {
+		/** Parse user desktop files. */
+		parse-user:   true;
+		/** Parse system desktop files. */
+		parse-system: true;
+    }
+
 	/*---------- General setting ----------*/
 	modi: "drun,run,filebrowser,window";
 	case-sensitive: false;
@@ -38,12 +58,6 @@ configuration {
 	drun-url-launcher: "xdg-open";
 	drun-use-desktop-cache: false;
 	drun-reload-desktop-cache: false;
-	drun {
-		/** Parse user desktop files. */
-		parse-user:   true;
-		/** Parse system desktop files. */
-		parse-system: true;
-    }
 
 	/*---------- Run settings ----------*/
 	run-command: "{cmd}";
@@ -84,19 +98,6 @@ configuration {
 	click-to-exit: true;
 /*	ignored-prefixes: "";*/
 /*	pid: "/run/user/1000/rofi.pid";*/
-
-	/*---------- File browser settings ----------*/
-    filebrowser {
-/*	  directory: "/home";*/
-      directories-first: true;
-      sorting-method:    "name";
-    }
-
-	/*---------- Other settings ----------*/
-    timeout {
-      action: "kb-cancel";
-      delay:  0;
-    }
 
 	/*---------- Keybindings ----------*/
 	kb-primary-paste: "Control+V,Shift+Insert";
